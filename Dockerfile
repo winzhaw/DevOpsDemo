@@ -1,8 +1,8 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 RUN apt-get update && apt-get install -y curl \
-  && curl -sL https://deb.nodesource.com/setup_18.x | bash - \
+  && curl -sL https://deb.nodesource.com/setup_20.x | bash - \
   && apt-get install -y nodejs \
-  && curl -L https://www.npmjs.com/install.sh | npm_install="8.19.2" | sh
+  && curl -L https://www.npmjs.com/install.sh | npm_install="10.2.3" | sh
 RUN apt-get update && apt-get install -y python3.10
 
 WORKDIR /usr/src/app
