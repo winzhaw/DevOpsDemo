@@ -63,9 +63,9 @@ public class ToDoController {
         return result;
     }
 
-    @GetMapping("/services/todo/{id}")
-    public ToDo getTodo(@PathVariable Integer id) {
-        return this.todos.get(id);
+    @GetMapping("/services/todo/{key}")
+    public ToDo getTodo(@PathVariable Integer key) {
+        return this.todos.get(key);
     }
 
     @PostMapping("/services/todo")
@@ -82,8 +82,8 @@ public class ToDoController {
     }
 
     @DeleteMapping("/services/todo/{key}")
-    public ToDo deleteTodo(@PathVariable Integer id) {
-        return this.todos.remove(id);
+    public ToDo deleteTodo(@PathVariable Integer key) {
+        return this.todos.remove(key);
     }
 
 

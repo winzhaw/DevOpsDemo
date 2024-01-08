@@ -23,8 +23,8 @@
     "url": "https://github.com/innovad/path-example.git"
   },
   "engines": {
-    "node": "18.12.1",
-    "npm": "8.19.2"
+    "node": "20.10.0",
+    "npm": "10.2.3"
   },
   "scripts": {
     "start": "ng serve --disable-host-check --host 0.0.0.0",
