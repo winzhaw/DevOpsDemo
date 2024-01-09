@@ -8,7 +8,7 @@ DevOps Prototype
 ## Required Tools
 * Git (https://git-scm.com/)
 * Node and NPM (https://nodejs.org/)
-* Java SDK 17 (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+* Java SDK 21 (https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
 
 ## Installation
 * Clone repository with Git
@@ -23,7 +23,7 @@ npm run dev
 * Open a console/terminal window and change directory to backend:
 ```
 cd backend
-gradle run
+gradle bootRun
 ```
 * You may check the backend is running by opening http://localhost:8080/services/ping in a web browser
 * You may check the frontend is running by opening http://localhost:4200/ in a web browser
