@@ -16,14 +16,14 @@ DevOps Prototype
 ```
 cd frontend
 npm install
-npm run dev
+npm start
 ```
 
 ## Deployment
 * Open a console/terminal window and change directory to backend:
 ```
 cd backend
-gradle bootRun
+gradle bootRun or gradlew bootRun or ./gradlew bootRun
 ```
 * You may check the backend is running by opening http://localhost:8080/services/ping in a web browser
 * You may check the frontend is running by opening http://localhost:4200/ in a web browser
