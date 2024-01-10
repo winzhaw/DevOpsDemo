@@ -9,6 +9,7 @@ DevOps Prototype
 * Git (https://git-scm.com/)
 * Node and NPM (https://nodejs.org/)
 * Java SDK 21 (https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
+* Gradle 8.6 (optional, Gradle Wrapper may be used)
 
 ## Installation
 * Clone repository with Git
