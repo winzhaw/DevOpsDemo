@@ -3,7 +3,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "DevOpsDemo FS2024",
+            "title": "Shami Wilson DevOps my favorite Class",
             "formList": [
                 {
                     "id": "OwnUserForm",
@@ -55,7 +55,7 @@ export class GuiModel {
                 {
                     "id": "ToDoForm",
                     "title": { default: "ToDo" },
-                    "url": "/todo",
+                    "url": "/clothingbrand",
                     "formFieldList": [
                         {
                             "id":   "title",
@@ -131,7 +131,7 @@ export class GuiModel {
                             "icon": "fa-user",
                             "color": "wet-asphalt",
                             "search": true,
-                            "url": "/todo",
+                            "url": "/clothingbrand",
                             "form": {
                                 "form": "ToDoForm"
                             }
@@ -147,3 +147,7 @@ export class GuiModel {
         return this._guiModel;
     }
 }
+
+
+
+// ändern

@@ -1,17 +1,17 @@
 package ch.zhaw.iwi.devops.demo;
 
-public class ToDo {
+public class ClothingBrand {
 
     private int id;
-    private String title;
+    private String name;
     private String description;
 
-    public ToDo() {
+    public ClothingBrand() {
     }
     
-    public ToDo(int id, String title, String description) {
+    public ClothingBrand(int id, String name, String description) {
         this.id = id;
-        this.title = title;
+        this.name = name;
         this.description = description;
     }
 
@@ -23,8 +23,8 @@ public class ToDo {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
     public String getDescription() {
