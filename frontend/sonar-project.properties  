@@ -1,0 +1,4 @@
+sonar.projectKey=DevOpsDemo_FrontEnd
+sonar.projectName=DevOpsDemo_FrontEnd
+sonar.host.url=http://localhost:9000
+sonar.token=sqp_93fdb304818a4c9eac3caabfc2b51b7a7956bf71
