@@ -23,8 +23,8 @@
     "url": "https://github.com/innovad/path-example.git"
   },
   "engines": {
-    "node": ">=14.17.0",
-    "npm": ">=6.14.0"
+    "node": ">=18.17.0",
+    "npm": ">=7.24.0"
   },
   "scripts": {
     "start": "ng serve --disable-host-check --host 0.0.0.0",
@@ -37,8 +37,9 @@
     "sonar": "npx sonar-scanner -Dsonar.host.url=http://localhost:9000 -Dsonar.projectKey=Frontend_Devops -Dsonar.projectName='Frontend_Devops' -Dsonar.token=sqp_914f3fd37f3c5de84321afb8399ec4a5aa4e2989"
   },
   "dependencies": {
-    "path-framework": "0.7.0-beta.13",
-    "@angular/compiler": "^13.3.0"
+    "@angular/compiler": "^13.3.0",
+    "font-awesome": "^4.7.0",
+    "path-framework": "0.7.0-beta.13"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "13.3.0",
