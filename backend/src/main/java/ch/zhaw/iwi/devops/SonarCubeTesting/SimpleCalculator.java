@@ -1,4 +1,4 @@
-package ch.zhaw.iwi.devops.SonarCube;
+package ch.zhaw.iwi.devops.SonarCubeTesting;
 
 
 public class SimpleCalculator {

@@ -1,11 +1,17 @@
-// src/test/java/sonarcube/SimpleCalculatorTest.java
-
 package ch.zhaw.iwi.devops.SonarCube;
 
 import org.junit.jupiter.api.Test;
+
+import ch.zhaw.iwi.devops.SonarCubeTesting.SimpleCalculator;
+
+// src/test/java/sonarcube/SimpleCalculatorTest.java
+
+
+
+
 import static org.junit.jupiter.api.Assertions.*;
 
-class SimpleCalculatorTest {
+public class SimpleCalculatorTest {
 
     private final SimpleCalculator calculator = new SimpleCalculator();
 
