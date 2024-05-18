@@ -1,5 +1,6 @@
 package ch.zhaw.iwi.devops.SonarCube;
 
+
 public class SimpleCalculator {
 
     public int add(int a, int b) {
