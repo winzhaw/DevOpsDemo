@@ -38,4 +38,10 @@ jacocoTestReport {
 		csv.required = false 
 		xml.destination(file("${rootProject.projectDir}/target/site/jacoco/cov.xml"))
 	}
+	sonarqube {
+    properties {
+        property "sonar.gradle.skipCompile", "true"
+    }
+}
+
 }
