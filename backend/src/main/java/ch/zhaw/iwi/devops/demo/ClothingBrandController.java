@@ -22,6 +22,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class ClothingBrandController {
 
     private Map<Integer, ClothingBrand> brands = new HashMap<Integer, ClothingBrand>();
+    private Map<Integer, ToDo> todos = new HashMap<>();  // Zusätzliche Verwaltung für ToDo-Objekte
+
+
+
 
     @EventListener(ApplicationReadyEvent.class)
     public void init() {
@@ -82,5 +86,21 @@ public class ClothingBrandController {
     @DeleteMapping("/services/clothingbrand/{key}")
     public ClothingBrand deleteClothingBrand(@PathVariable Integer key) {
         return this.brands.remove(key);
+    }
+    @PostMapping("/todos")
+    public void createTodo(@RequestBody ToDo todo) {
+        int newId = todos.keySet().stream().max(Comparator.naturalOrder()).orElse(0) + 1;
+        todo.setId(newId);
+        todos.put(newId, todo);
+    }
+
+    @GetMapping("/todos")
+    public List<ToDo> todo() {
+        return new ArrayList<>(todos.values());
+    }
+
+    @GetMapping("/count")
+    public int count() {
+        return this.brands.size() + this.todos.size();  // Zählt sowohl Clothing Brands als auch ToDos
     }
 }
