@@ -1,42 +1,42 @@
-package ch.zhaw.iwi.devops.SonarCube;
+package ch.zhaw.iwi.devops.SonarCubeTesting;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 
-import ch.zhaw.iwi.devops.SonarCubeTesting.SimpleCalculator;
-
-// src/test/java/sonarcube/SimpleCalculatorTest.java
-
-
-
-
-import static org.junit.jupiter.api.Assertions.*;
-
 public class SimpleCalculatorTest {
 
-    private final SimpleCalculator calculator = new SimpleCalculator();
-
     @Test
-    void testAdd() {
+    public void testAdd() {
+        SimpleCalculator calculator = new SimpleCalculator();
         assertEquals(5, calculator.add(2, 3));
     }
 
     @Test
-    void testSubtract() {
+    public void testSubtract() {
+        SimpleCalculator calculator = new SimpleCalculator();
         assertEquals(1, calculator.subtract(3, 2));
     }
 
     @Test
-    void testMultiply() {
+    public void testMultiply() {
+        SimpleCalculator calculator = new SimpleCalculator();
         assertEquals(6, calculator.multiply(2, 3));
     }
 
+    // Neue Tests für die divide-Methode
     @Test
-    void testDivide() {
+    public void testDivide() {
+        SimpleCalculator calculator = new SimpleCalculator();
         assertEquals(2, calculator.divide(6, 3));
     }
 
     @Test
-    void testDivideByZero() {
-        assertThrows(IllegalArgumentException.class, () -> calculator.divide(1, 0));
+    public void testDivideByZero() {
+        SimpleCalculator calculator = new SimpleCalculator();
+        assertThrows(IllegalArgumentException.class, () -> {
+            calculator.divide(1, 0);
+        });
     }
 }
