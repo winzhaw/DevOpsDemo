@@ -22,7 +22,7 @@ jobs:
           username: ${{secrets.DOCKERHUB_USERNAME}}
           password: ${{secrets.DOCKERHUB_TOKEN}}
       -
-        name: Build and pushhhhhhh
+        name: Build and pushhhhhh
         uses: docker/build-push-action@v3
         with:
           push: true
