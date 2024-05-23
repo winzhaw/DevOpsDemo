@@ -35,7 +35,7 @@ jobs:
     needs: docker
 
     steps:
-      - name: Deploy to Azure Web App 
+      - name: Deploy to Azure Web App WEHE DU DRECK GAHSCH NED JETZT
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
