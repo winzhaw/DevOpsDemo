@@ -107,6 +107,15 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
+                        {
+                            "type": "button",
+                            "name": { default: "devops-container" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
                     ]
                 },
                 {
