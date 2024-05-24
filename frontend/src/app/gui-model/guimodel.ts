@@ -34,8 +34,7 @@ export class GuiModel {
                             "name": "Ok"
                         }
                     ]
-                },
-                {
+                }, {
                     "id": "NotImplementedFormModal",
                     "title": "NotImplemented",
                     "url": "/dummyform",
@@ -51,8 +50,7 @@ export class GuiModel {
                             "name": "Ok"
                         }
                     ]
-                },
-                {
+                },  {
                     "id": "ToDoForm",
                     "title": { default: "ToDo" },
                     "url": "/clothingbrand",
