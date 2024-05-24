@@ -115,6 +115,23 @@ export class GuiModel {
                             "page": "toDoPage",
                             "width": 2,
                             "newRow": true,
+                        },                        {
+                            "type": "button",
+                            "name": { default: "ich-will-nicht" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "nachtschicht" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
                         },
                     ]
                 },
